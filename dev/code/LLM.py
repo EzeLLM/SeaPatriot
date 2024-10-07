@@ -3,9 +3,15 @@ from groq import Groq
 from dotenv import load_dotenv
 import FuncHub
 import re
-
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 load_dotenv()
 GROQ_API_KEY = os.getenv('GROQAPI')
+
 
     
 
