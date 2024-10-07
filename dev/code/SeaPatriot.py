@@ -53,10 +53,10 @@ class SeaPatriot:
                 print("No recent cache, returning stale data")
                 return cached  # Return stale data if no recent cache available
 
-    def chat(self, user_input):
+    def chat(self, user_input, chat_id):
         si = json.dumps(self.main())
         print(si)
-        return self.llm.chat(user_input, ship_info=si)
+        return self.llm.chat(user_input, ship_info=si, chat_id=chat_id)
 
 
 if __name__ == '__main__':
