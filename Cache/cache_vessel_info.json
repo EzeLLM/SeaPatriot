@@ -1,13 +1,13 @@
 {
     "latitude": 37.95913,
-    "longitude": 23.6056,
-    "course": 28.0,
+    "longitude": 23.60558,
+    "course": 176.8,
     "source": "Korfez, Turkey",
     "destination": "Piraeus, Greece",
     "speed": "0.0 kn",
     "status": "Moored",
     "address": "Attica, Greece",
     "eta": "ATA: Oct 07, 08:41 UTC (!)",
-    "last_report": "Oct 07, 2024 15:28 UTC",
-    "last_retrieved": 1728315052.4901829
+    "last_report": "Oct 07, 2024 16:01 UTC",
+    "last_retrieved": 1728316965.325078
 }
