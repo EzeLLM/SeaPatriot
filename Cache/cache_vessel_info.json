@@ -1,13 +1,13 @@
 {
-    "latitude": 37.86498,
-    "longitude": 23.53933,
-    "course": 337.2,
-    "source": "Trieste, Italy",
-    "destination": "Piraeus Anch., Greece",
+    "latitude": 37.95913,
+    "longitude": 23.60562,
+    "course": 96.7,
+    "source": "Korfez, Turkey",
+    "destination": "Piraeus, Greece",
     "speed": "0.0 kn",
-    "status": "At anchor",
+    "status": "Moored",
     "address": "Attica, Greece",
-    "eta": "ATA: Oct 07, 02:59 UTC",
-    "last_report": "Oct 07, 2024 10:13 UTC",
-    "last_retrieved": 1728296210.6054919
+    "eta": "ATA: Oct 07, 08:41 UTC (!)",
+    "last_report": "Oct 07, 2024 14:03 UTC",
+    "last_retrieved": 1728309952.076407
 }

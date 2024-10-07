@@ -31,10 +31,10 @@ class InfoMaker:
             return None
         try:
             driver.get(self.url)
-            time.sleep(10)
+            time.sleep(5)
             def safe_get_text(xpath):
                 try:
-                    element = WebDriverWait(driver, 20).until(
+                    element = WebDriverWait(driver, 1).until(
                         EC.presence_of_element_located((By.XPATH, xpath))
                     )
                     return element.text.strip()
